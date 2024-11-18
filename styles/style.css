@@ -1,1 +1,35 @@
-/* место для вашего кода */
+
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  align-items: center;
+  padding: 92px 24px 96px;
+}
+
+.header__links-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+
+.header__link {
+  font-size: 18px;
+  list-style: circle;
+  white-space: nowrap;
+}
+
+.header__links-list-item_no-bullet{
+  list-style: none;
+}
+
+
+.header__logo {
+  display: block;
+  justify-self: center;
+  align-self: center;
+  width: 148px;
+}
+
+
