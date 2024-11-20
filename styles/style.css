@@ -5,7 +5,7 @@
   padding: 92px 51px 98px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   font-size: 18px;
   gap: 33px;
@@ -13,17 +13,17 @@
   padding-top: 5px;
 }
 
-.header__link{
+.header__link {
   list-style: circle;
 }
 
-.header__links-list-item_no-bullet{
+.header__links-list-item_no-bullet {
   list-style: none;
 }
 
 .text-link:hover {
   background-color: #000000;
-  color: #FFF;
+  color: #fff;
 }
 
 .header__link_active {
@@ -34,7 +34,7 @@
   width: 100%;
 }
 
-.header__address{
+.header__address {
   justify-self: end;
   font-size: 18px;
   line-height: 24px;
@@ -42,7 +42,7 @@
   padding-right: 35px;
 }
 
-.header_address__items{
+.header_address__items {
   font-style: inherit;
 }
 
@@ -58,18 +58,18 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index:0px;
+  z-index: 0px;
   width: 100%;
   height: 100%;
   background-color: #000000;
   opacity: 0.6;
 }
 
-.cover__title{
+.cover__title {
   position: relative;
   font-size: 100px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   z-index: 1;
   display: flex;
   gap: 20px;
@@ -79,16 +79,16 @@
   letter-spacing: 0.3em;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   text-align: center;
-    line-height: 1;
+  line-height: 1;
 }
 
-.aligned-text_right{
+.aligned-text_right {
   text-align: right;
   line-height: 1;
 }
@@ -97,11 +97,11 @@
   letter-spacing: 0.6em;
 }
 
-.remove-spacing{
+.remove-spacing {
   letter-spacing: normal;
 }
 
-.cover__description{
+.cover__description {
   position: relative;
   z-index: 1;
   display: flex;
@@ -112,16 +112,16 @@
 }
 
 .cover__description-text {
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   font-size: 22px;
   line-height: 28px;
   word-spacing: 18px;
 }
 
-.bet-button{
+.bet-button {
   border: 1px #fff solid;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 22px;
   color: #fff;
   text-transform: uppercase;
@@ -132,7 +132,7 @@
 
 .bet-button:hover {
   color: #000000;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .lots {
@@ -173,7 +173,7 @@
   padding: 50px 40px;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@
   background-repeat: no-repeat;
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -231,7 +231,6 @@
 
 .about__column_text {
   grid-column: 2/4;
-  
 }
 
 .about__logo {
@@ -242,15 +241,13 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  
 }
 
 .about__logo-image {
   width: 148px;
-  
 }
 
-.about__title{
+.about__title {
   padding: 103px 0 105px;
   font-size: 40px;
   font-weight: bold;
@@ -301,13 +298,13 @@
   list-style: none;
 }
 
-.footer__address{
+.footer__address {
   font-size: 18px;
   line-height: 24px;
   padding-top: 2px;
   padding-right: 35px;
 }
 
-.footer_address__items{
+.footer_address__items {
   font-style: inherit;
 }
